@@ -6,13 +6,13 @@
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
-    "migrate": "npx prisma generate"
+    "generate": "npx prisma generate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^4.6.1",
+    "@prisma/client": "~3.13.0",
     "apollo-server-express": "^3.11.1",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
